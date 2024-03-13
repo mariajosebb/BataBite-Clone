@@ -490,7 +490,7 @@ main {
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    padding: 10px;
+    padding: 30px;
     height: 316px;
 
     /* Permite el desplazamiento horizontal */
@@ -512,6 +512,7 @@ main {
     max-width: 300px;
     /* Anchura máxima para evitar que se extiendan demasiado */
     height: 250px;
+    position: relative;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
